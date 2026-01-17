@@ -14,7 +14,29 @@ We use a pretrained model to predict credit scores and deploy that model as an A
 | [**Hosting with Microsoft AZURE**](#hosting-with-microsoft-azure)
 | [**Github Actions**](#github-actions)
 
+
+What the full system does (end-to-end flow)
+
+## Here’s the lifecycle :
+
+1. **Historical loan data** is used to train or load a pretrained credit scoring model
+
+2. The model is packaged and exposed via a **FastAPI REST API**
+
+3. **A Streamlit web dashboard** allows business users to interact with the model
+
+4. Everything runs inside **Docker containers** for consistency
+
+5. **GitHub Actions** automatically builds and deploys the system
+
+6. The system is hosted on **Microsoft Azure**
+
+7. **EvidentlyAI** monitors **data drift and model behaviour over time**
+
+## This mirrors how ML systems run in real financial organisations.
+
 ## Tech Stack:  
+
 **VS Code** — as the IDE of choice.  
 **pipenv** — to handle package dependencies, create virtual environments, and load environment variables.  
 **FastAPI** — Python API development framework for ML endpoint deployment 
