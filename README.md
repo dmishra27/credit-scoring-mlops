@@ -37,18 +37,18 @@ What the full system does (end-to-end flow)
 
 ## Tech Stack:  
 
-**VS Code** — as the IDE of choice.  
-**pipenv** — to handle package dependencies, create virtual environments, and load environment variables.  
-**FastAPI** — Python API development framework for ML endpoint deployment 
+1. **VS Code** — as the IDE of choice.  
+2. **pipenv** — to handle package dependencies, create virtual environments, and load environment variables.  
+3. **FastAPI** — Python API development framework for ML endpoint deployment 
 	**Uvicorn** — ASGI server for FastAPI app.  
-**Docker Desktop** — build and run Docker container images on our local machine. (MacOS 11)  
+4. **Docker Desktop** — build and run Docker container images on our local machine. (MacOS 11)  
     Containers are an isolated environment to run any code  
-**Azure Container Registry** — repository for storing our container image in Azure cloud.  
-**Azure App Service** — PaaS service to host our FastAPI app server.  
-**Github Actions** — automate continuous deployment workflow of model serving through FastAPI and dashboarding through Streamlit app.  
-**Streamlit** - Dashboard  
-**PyTest** - Testing of Web APP functionality through
-**EvidentlyAI** - Data Drift detection
+5. **Azure Container Registry** — repository for storing our container image in Azure cloud.  
+6. **Azure App Service** — PaaS service to host our FastAPI app server.  
+7. **Github Actions** — automate continuous deployment workflow of model serving through FastAPI and dashboarding through Streamlit app.  
+8. **Streamlit** - Dashboard  
+9. **PyTest** - Testing of Web APP functionality through
+10. **EvidentlyAI** - Data Drift detection
 
 ## Scope of Readme
 
