@@ -33,7 +33,7 @@ What the full system does (end-to-end flow)
 
 7. **EvidentlyAI** monitors **data drift and model behaviour over time**
 
-## This mirrors how ML systems run in real financial organisations.
+## This mirrors how ML systems run in financial organisations.
 
 ## Tech Stack:  
 
